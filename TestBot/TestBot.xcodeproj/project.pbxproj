@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B125F4B118316A140064DDD0 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B125F4B018316A140064DDD0 /* SampleSpec.m */; };
+		B125F4B318316EAC0064DDD0 /* TestBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B125F4B218316EAC0064DDD0 /* TestBotTests.m */; };
 		B1A09B6C181FCE3800729BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A09B6B181FCE3800729BBD /* Foundation.framework */; };
 		B1A09B6E181FCE3800729BBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A09B6D181FCE3800729BBD /* CoreGraphics.framework */; };
 		B1A09B70181FCE3800729BBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A09B6F181FCE3800729BBD /* UIKit.framework */; };
@@ -20,7 +22,7 @@
 		B1A09B8C181FCE3800729BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A09B6B181FCE3800729BBD /* Foundation.framework */; };
 		B1A09B8D181FCE3800729BBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A09B6F181FCE3800729BBD /* UIKit.framework */; };
 		B1A09B95181FCE3800729BBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1A09B93181FCE3800729BBD /* InfoPlist.strings */; };
-		B1A09B97181FCE3800729BBD /* TestBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A09B96181FCE3800729BBD /* TestBotTests.m */; };
+		F869555CD8444AC38D35838E /* libPods-TestBotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 852F5F7A37684419B244B6A9 /* libPods-TestBotTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4306D8C6FEF1473C99FE4A83 /* Pods-TestBotTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBotTests.xcconfig"; path = "Pods/Pods-TestBotTests.xcconfig"; sourceTree = "<group>"; };
+		852F5F7A37684419B244B6A9 /* libPods-TestBotTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestBotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B125F4B018316A140064DDD0 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
+		B125F4B218316EAC0064DDD0 /* TestBotTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBotTests.m; sourceTree = "<group>"; };
 		B1A09B68181FCE3800729BBD /* TestBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A09B6B181FCE3800729BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1A09B6D181FCE3800729BBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +58,6 @@
 		B1A09B8A181FCE3800729BBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B1A09B92181FCE3800729BBD /* TestBotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBotTests-Info.plist"; sourceTree = "<group>"; };
 		B1A09B94181FCE3800729BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1A09B96181FCE3800729BBD /* TestBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBotTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,7 @@
 				B1A09B8B181FCE3800729BBD /* XCTest.framework in Frameworks */,
 				B1A09B8D181FCE3800729BBD /* UIKit.framework in Frameworks */,
 				B1A09B8C181FCE3800729BBD /* Foundation.framework in Frameworks */,
+				F869555CD8444AC38D35838E /* libPods-TestBotTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 				B1A09B90181FCE3800729BBD /* TestBotTests */,
 				B1A09B6A181FCE3800729BBD /* Frameworks */,
 				B1A09B69181FCE3800729BBD /* Products */,
+				4306D8C6FEF1473C99FE4A83 /* Pods-TestBotTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,7 @@
 				B1A09B6D181FCE3800729BBD /* CoreGraphics.framework */,
 				B1A09B6F181FCE3800729BBD /* UIKit.framework */,
 				B1A09B8A181FCE3800729BBD /* XCTest.framework */,
+				852F5F7A37684419B244B6A9 /* libPods-TestBotTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,8 +145,9 @@
 		B1A09B90181FCE3800729BBD /* TestBotTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1A09B96181FCE3800729BBD /* TestBotTests.m */,
+				B125F4B218316EAC0064DDD0 /* TestBotTests.m */,
 				B1A09B91181FCE3800729BBD /* Supporting Files */,
+				B125F4B018316A140064DDD0 /* SampleSpec.m */,
 			);
 			path = TestBotTests;
 			sourceTree = "<group>";
@@ -176,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1A09B9D181FCE3900729BBD /* Build configuration list for PBXNativeTarget "TestBotTests" */;
 			buildPhases = (
+				A2B67175A42A4D95B65B19FD /* Check Pods Manifest.lock */,
 				B1A09B85181FCE3800729BBD /* Sources */,
 				B1A09B86181FCE3800729BBD /* Frameworks */,
 				B1A09B87181FCE3800729BBD /* Resources */,
+				A6F5BBEDCD2D423BB84162EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +259,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2B67175A42A4D95B65B19FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F5BBEDCD2D423BB84162EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TestBotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1A09B64181FCE3800729BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A09B97181FCE3800729BBD /* TestBotTests.m in Sources */,
+				B125F4B118316A140064DDD0 /* SampleSpec.m in Sources */,
+				B125F4B318316EAC0064DDD0 /* TestBotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +454,7 @@
 		};
 		B1A09B9E181FCE3900729BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4306D8C6FEF1473C99FE4A83 /* Pods-TestBotTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestBot.app/TestBot";
@@ -432,6 +478,7 @@
 		};
 		B1A09B9F181FCE3900729BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4306D8C6FEF1473C99FE4A83 /* Pods-TestBotTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestBot.app/TestBot";
@@ -468,6 +515,7 @@
 				B1A09B9C181FCE3900729BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A09B9D181FCE3900729BBD /* Build configuration list for PBXNativeTarget "TestBotTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +524,7 @@
 				B1A09B9F181FCE3900729BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
